@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(rgb(105, 105, 105), rgba(204, 109, 109, 0.219));           
+}
+
+header{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    
+    width: 100%;
+}
+.button{
+    text-decoration: bolder;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: gray;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+.button:hover{
+    background-color: rgb(170, 170, 170);
+    border: none;
+    color: rgb(39, 39, 39);
+    padding:  30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#div1{
+    display: flex;
+    text-decoration: wavy;
+}
+
+#div2{
+    display: flex;
+}
+
+#div3{
+    display: flex;
+}
+
+#div4 > td {
+    padding: auto;
+    padding: 20px;
+}
