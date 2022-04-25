@@ -1,0 +1,68 @@
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Informations</title>
+    <link rel="stylesheet" href="css/Informations.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Client</legend>
+
+            <label for="Civilité" class="label">Civilité</label> <input type="radio" name="Civilité"
+                class="input" />Mademoiselle <input type="radio" name="Civilité" class="input" />Madame <input
+                type="radio" name="Civilité" class="input" />Monsieur <br><br>
+            <label for="PreNom" class="label">Nom / Prénom</label> <input type="text" class="input"
+                placeholder="Veuillez saisir vos nom(s) et prénom(s)" size="50"> <br><br>
+            <label for="Adresse" class="label">Adresse</label> <textarea name="Adresse" class="input" cols="30"
+                rows="3"></textarea><br><br>
+            <label for="CP" class="label">Code Postal / </label><label for="Ville" class="label">Ville</label> <input
+                type="text" class="input" maxlength="5" size="7"> <input type="text" class="input" size="15"
+                value="Lyon">
+            <br><br>
+
+            <label for="Pays" class="label">Pays</label>
+            <select name="Pays" class="input">
+                <option value="1">France</option>
+                <option value="2">Belgique</option>
+                <option value="3">Allemagne</option>
+                <option value="4" selected>Suisse</option>
+                <option value="5">Espagne</option>
+                <option value="6">Italie</option>
+            </select> <br><br>
+
+            <label for="Plateformes" class="label">Plateforme(s)</label> <input type="checkbox" name="Plateforme"
+                class="input"> Windows
+            <input type="checkbox" name="Plateforme" class="input"> Macintosh <input type="checkbox" name="Plateforme"
+                class="input">
+            Unix <br><br>
+
+            <label for="Applications" class="label">Application(s)</label>
+            <select name="Applications" id="Applications" size="5" class="input" multiple>
+                <option value="1">Bureautique</option>
+                <option value="2">DAO</option>
+                <option value="3">Statistiques</option>
+                <option value="4">SGBD</option>
+                <option value="5">Internet</option>
+            </select> <br><br>
+
+        </fieldset>
+    </form>
+
+    <input type="submit" name="" id="">
+    <input type="reset"> <br><br>
+
+    <div> Preview de "Indie Cross" (bêta) <br>
+        <video src="C:/Users/Cerrone/Videos/Captures/Last Reel.mp4" controls width="600px" height="350px"></video>
+        <br><br>
+
+        Preview de "Indie Cross" release 1.0 <br>
+        <video src="C:/Users/Cerrone/Videos/Captures/Last Reel Update.mp4" controls width="600px"
+            height="350px"></video> <br><br>
+
+    </div>
+</body>
+
+</html>
